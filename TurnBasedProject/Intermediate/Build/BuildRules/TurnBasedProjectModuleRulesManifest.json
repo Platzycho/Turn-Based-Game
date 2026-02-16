@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Nesli\\Documents\\Unreal Projects\\Turn-Based-Game\\TurnBasedProject\\Source\\TurnBasedProject\\TurnBasedProject.Build.cs",
+		"C:\\Users\\Nesli\\Documents\\Unreal Projects\\Turn-Based-Game\\TurnBasedProject\\Source\\TurnBasedProject.Target.cs",
+		"C:\\Users\\Nesli\\Documents\\Unreal Projects\\Turn-Based-Game\\TurnBasedProject\\Source\\TurnBasedProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}

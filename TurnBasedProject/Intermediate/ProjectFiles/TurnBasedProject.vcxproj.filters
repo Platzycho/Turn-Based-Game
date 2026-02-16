@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TurnBasedProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TurnBasedProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TurnBasedProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TurnBasedProject">
+      <UniqueIdentifier>{1C1B5512-B466-387C-BC3F-B6A019132A46}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TurnBasedProject\TurnBasedProject.Build.cs">
+      <Filter>Source\TurnBasedProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TurnBasedProject\TurnBasedProject.cpp">
+      <Filter>Source\TurnBasedProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnBasedProject\TurnBasedProject.h">
+      <Filter>Source\TurnBasedProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnBasedProject\Characters">
+      <UniqueIdentifier>{35D99EC0-B6C8-3C4B-9543-96D8D8ACE393}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnBasedProject\Characters\CharacterStats.cpp">
+      <Filter>Source\TurnBasedProject\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnBasedProject\Characters\CharacterStats.h">
+      <Filter>Source\TurnBasedProject\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnBasedProject\Characters\PlayerCharacterBase.cpp">
+      <Filter>Source\TurnBasedProject\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnBasedProject\Characters\PlayerCharacterBase.h">
+      <Filter>Source\TurnBasedProject\Characters</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
