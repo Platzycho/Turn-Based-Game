@@ -257,6 +257,14 @@
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <ClCompile Include="..\..\Source\TurnBasedProject\AHexGrid.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnBasedProject\AHexGrid.h"/>
+    <ClCompile Include="..\..\Source\TurnBasedProject\AHexTile.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnBasedProject\AHexTile.h"/>
     <None Include="..\..\Source\TurnBasedProject\TurnBasedProject.Build.cs"/>
     <ClCompile Include="..\..\Source\TurnBasedProject\TurnBasedProject.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

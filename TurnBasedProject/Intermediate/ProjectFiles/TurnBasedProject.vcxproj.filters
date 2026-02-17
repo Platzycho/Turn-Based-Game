@@ -30,6 +30,18 @@
     <Filter Include="Source\TurnBasedProject">
       <UniqueIdentifier>{1C1B5512-B466-387C-BC3F-B6A019132A46}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TurnBasedProject\AHexGrid.cpp">
+      <Filter>Source\TurnBasedProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnBasedProject\AHexGrid.h">
+      <Filter>Source\TurnBasedProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnBasedProject\AHexTile.cpp">
+      <Filter>Source\TurnBasedProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnBasedProject\AHexTile.h">
+      <Filter>Source\TurnBasedProject</Filter>
+    </ClInclude>
     <None Include="..\..\Source\TurnBasedProject\TurnBasedProject.Build.cs">
       <Filter>Source\TurnBasedProject</Filter>
     </None>
